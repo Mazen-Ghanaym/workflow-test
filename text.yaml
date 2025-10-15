@@ -1,0 +1,141 @@
+# This is a single comment line
+name: mazen 
+
+age = 21
+salary = 1500.5
+user_name: mazengh
+is_active: true
+employment_date: 2025-10-15T11:59:00Z
+direct_manager: Ahmed
+
+serial_number: "0050"
+regex: "^[A-Za-z]+:\\s"
+
+message: "Hello\nMazen" # Hello
+                        # Mazen
+
+path: "C:\\Users\\Admin"
+quote: "It's YAML"
+
+
+s_message: 'Hello\nWorld' # Hello\nWorld
+s_path: 'C:\Users\Admin' # C:\Users\Admin
+s_quote: 'It''s YAML' # It's YAML
+
+long_message: |
+  Hello
+  Mazen
+  How are you?
+# Hello
+# Mazen
+# How are you?
+folded_message: >
+  Hello
+  Mazen
+  How are you?
+# Hello Mazen How are you?
+
+# collections 
+# Map
+
+employee:
+  name: Mazen Ghanayem
+  age: 21
+  contact:
+    email: example@gmail.com
+
+# List of maps
+employee:
+  - name: Mazen Ghanayem
+    age: 21
+    contact:
+      email: example@gmail.com
+  - name: Ali Mohamed
+    age: 34
+    contact:
+      email: example2@gmail.com
+  - name: Ahmed Khaled
+    age: 24
+    contact:
+      email: example3@gmail.com
+
+# Map has list
+severs:
+  production:
+    - host: prod1.example.com
+      ip: 192.168.1.10
+    - host: prod2.example.com
+      ip: 192.168.1.11
+  staging:
+    - host: stage1.example.com
+      ip: 192.168.2.20
+    - host: stage2.example.com
+      ip: 192.168.2.21
+  development:
+    - host: dev1.example.com
+      ip: 192.168.3.30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
